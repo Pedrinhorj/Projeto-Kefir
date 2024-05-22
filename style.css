@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+header{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #242323;
+    color: #ffffff;
+    padding: 1%;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+h1{
+    margin-left: -4em;
+}
+.header-nav{
+    display: flex;
+    gap:30px;
+}
+span{
+    padding: 5px;
+    font-size:20px;
+}
+span:hover{
+    border-left: #4d4d4d solid 2px;
+    border-right: #4d4d4d solid 2px;
+    background-color: #363636;
+    transition: 250ms linear;
+}
+.header-sup{
+    display: flex;
+    gap:30px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.image-last{
+    width: 100%;
+}
+.image-logo{
+    width: 20em;
+    position: absolute;
+    margin-top: 2em;
+    margin-right: 19em;
+}
+
+/* conteiner 1 feito, agora é o segundo conteiner */
+
+.conteiner-II{
+    background-color: black;
+}
+
+.image-partII{
+    display:inline;
+}
+
+.first-text{
+    color: white;
+}
+.text-photo{
+    width: 30em;
+}
+
+.download-mobile{
+    width: 15em;
+    display: flex;
+    gap: 2em;
+}
+
+.img-mobile{
+    box-shadow: 1px 2px 10px white ;
+}
